@@ -1,0 +1,95 @@
+/* ✅ Background Image & Full Page Styling */
+.login-container {
+    background: url("https://source.unsplash.com/1600x900/?help,poor") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* ✅ Slogan Styling */
+  .slogan {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* ✅ Login Box Styling */
+  .login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+  }
+  
+  /* ✅ Input Field Styling */
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  /* ✅ Button Styling */
+  button {
+    background: #28a745;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  /* ✅ Signup Link */
+  .signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Background Image */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/your-image.jpg') no-repeat center center/cover;
+  }
+  
+  /* Form Styling */
+  .signup-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  /* Boom Effect */
+  .fade-in {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .signup-form {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  
